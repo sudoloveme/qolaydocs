@@ -12,19 +12,6 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Поддержка",
-        "href": "https://wa.me/77064200228"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Личный кабинет",
-      "href": "https://merchant.qolay.kz/"
-    }
-  },
   "navigation": {
     "tabs": [
       {
