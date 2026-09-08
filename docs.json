@@ -1,38 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "almond",
+  "name": "Qolay",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#ef7025",
+    "light": "#eec9bc",
+    "dark": "#4fa1ab"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
@@ -40,33 +15,81 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Поддержка",
+        "href": "https://wa.me/77064200228"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Личный кабинет",
+      "href": "https://merchant.qolay.kz/"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Документация",
+        "groups": [
+          {
+            "group": "Начало работы",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "plans"
+            ]
+          },
+          {
+            "group": "QR-Меню",
+            "pages": [
+              "qr-menu/overview",
+              "qr-menu/setup",
+              "qr-menu/customization",
+              "qr-menu/languages"
+            ]
+          },
+          {
+            "group": "Админ-Панель",
+            "pages": [
+              "admin/overview",
+              "admin/menu-management",
+              "admin/inventory",
+              "admin/staff",
+              "admin/analytics"
+            ]
+          },
+          {
+            "group": "Экран Кухни (KDS)",
+            "pages": [
+              "kds/overview",
+              "kds/setup",
+              "kds/order-flow"
+            ]
+          },
+          {
+            "group": "Интеграции",
+            "pages": [
+              "integrations/delivery-platforms",
+              "integrations/biometrics",
+              "integrations/banquets"
+            ]
+          },
+          {
+            "group": "Помощь",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "telegram": "https://t.me/qolaykz",
+      "instagram": "https://www.instagram.com/qolay_kz",
+      "linkedin": "https://www.linkedin.com/company/111502156/"
     }
   }
 }
