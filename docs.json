@@ -32,54 +32,27 @@
         "groups": [
           {
             "group": "Начало работы",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "plans"
-            ]
+            "pages": []
           },
           {
             "group": "QR-Меню",
-            "pages": [
-              "qr-menu/overview",
-              "qr-menu/setup",
-              "qr-menu/customization",
-              "qr-menu/languages"
-            ]
+            "pages": []
           },
           {
             "group": "Админ-Панель",
-            "pages": [
-              "admin/overview",
-              "admin/menu-management",
-              "admin/inventory",
-              "admin/staff",
-              "admin/analytics"
-            ]
+            "pages": []
           },
           {
             "group": "Экран Кухни (KDS)",
-            "pages": [
-              "kds/overview",
-              "kds/setup",
-              "kds/order-flow"
-            ]
+            "pages": []
           },
           {
             "group": "Интеграции",
-            "pages": [
-              "integrations/delivery-platforms",
-              "integrations/biometrics",
-              "integrations/banquets"
-            ]
+            "pages": []
           },
           {
             "group": "Помощь",
-            "pages": [
-              "help/faq",
-              "help/troubleshooting",
-              "help/contact"
-            ]
+            "pages": []
           }
         ]
       }
